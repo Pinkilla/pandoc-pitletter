@@ -28,6 +28,23 @@ une commande du style
 
     pandoc lettre.md --template template/lettre.tex -o lettre.pdf 
 
-## Sources
 
-* https://github.com/mrzool/letter-boilerplate
+
+
+### End
+
+**Sources**: https://github.com/mrzool/letter-boilerplate
+
+PiT, Pierre Bettens <pb@namok.be>                                    
+[@pinkilla](http://twitter.com/pinkilla)
+
+2016 mars                                                                    
+version 0.1                                                                     
+                                                                                  
+[![CC](cc-by-nc-sa-80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
+
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Pinkilla&url=https://github.com/Pinkilla/pandoc-pitletter&title=pandoc-pitletter&language=&tags=github&category=software)
+
+
+
