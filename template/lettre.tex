@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,dvips]{geometry}
+	\geometry{hmargin=2.5cm,vmargin={3cm, 2.5cm}}
+	\setlength\parindent{0pt}
+	\setlength\parskip{10pt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{palatino}
+\usepackage{textcomp}
+\usepackage{datetime}
+
+\begin{document}
+\pagestyle{empty}
+
+%
+% Author and from
+%
+$if(from)$
+\begin{minipage}{.5\linewidth}
+	\textbf{$author$}\\
+	$for(from)$
+		$from$\\
+	$endfor$
+\end{minipage}
+$endif$
+
+%
+% To
+%
+$if(to)$
+\begin{flushright}
+	\begin{minipage}[t]{.4\linewidth}
+		$for(to)$
+			$to$\\
+		$endfor$
+	\end{minipage}
+\end{flushright}
+$endif$
+
+%
+% References
+%
+$if(mref)$
+\textit{Mes réf.: $mref$}
+$endif$
+$if(vref)$
+\\\textit{Vos réf.: $vref$}
+$endif$
+
+% 
+% Object
+%
+$if(object)$
+\par\bigskip\textbf{Concerne: $object$}
+$endif$
+
+%
+% Date
+%
+\begin{flushright}
+\begin{minipage}[t]{.4\linewidth}
+	$if(date)$
+		$date$,
+	$else$
+		Le \dayofweekname{\day}{\month}{\year} \today,
+	$endif$
+\end{minipage}
+\end{flushright}
+
+
+\par\vspace{10mm} 
+$opening$
+
+\vspace{1cm}
+$body$
+
+\vspace{1cm}
+$closing$
+
+
+%
+% Signature
+%
+\bigskip
+\bigskip
+\begin{flushright}
+\begin{minipage}[t]{.4\linewidth}
+	$author$
+\end{minipage}
+\end{flushright}
+
+\end{document}
