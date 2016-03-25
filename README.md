@@ -28,6 +28,24 @@ une commande du style
 
     pandoc lettre.md --template template/lettre.tex -o lettre.pdf 
 
+### Structure du répo
+
+Le seul fichier nécessaire est le fichier `template/lettre.tex`.  
+Les fichiers `lettre.md` et `lettre.pdf` servent d'exemple tandis que les
+fichiers `blog*` référencent l'[article du
+blog](http://namok.be/blog/?post/2016/03/25/pandoc-lettre-markdown).   
+Les images sont… des images. 
+
+.
+├── blog-pandoc-pitletter.md
+├── blog-pandoc-pitletter.md.pdf
+├── cc-by-nc-sa-80x15.png
+├── letter-pit.jpg
+├── lettre.md
+├── lettre.pdf
+├── README.md
+└── template
+    └── lettre.tex
 
 
 
