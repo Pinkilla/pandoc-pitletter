@@ -36,6 +36,7 @@ fichiers `blog*` référencent l'[article du
 blog](http://namok.be/blog/?post/2016/03/25/pandoc-lettre-markdown).   
 Les images sont… des images. 
 
+```
 .
 ├── blog-pandoc-pitletter.md
 ├── blog-pandoc-pitletter.md.pdf
@@ -46,7 +47,7 @@ Les images sont… des images.
 ├── README.md
 └── template
     └── lettre.tex
-
+```
 
 
 ### End
