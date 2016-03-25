@@ -67,10 +67,12 @@ entreprise.
 
 \bigskip
 
-*Crédit photo pit. Ma main, ma feuille, ma belle écriture.*
+*Crédit photo pit. Ma main, ma feuille, ma belle écriture.*  
+*Billet publié sur [notes·de·pit][billet]*
 
 [pandoc]:http://pandoc.org/
 [pandoc-letter]:https://github.com/aaronwolen/pandoc-letter
 [letterhead]:http://blog.hartleygroup.org/2015/08/01/a-pandoc-template-for-letterhead/
 [boilerplate]:https://github.com/mrzool/letter-boilerplate
 [blog]:http://namok.be/blog/?post/2013/11/19/billet-markdown
+[billet]:http://namok.be/blog/?post/2016/03/25/pandoc-lettre-markdown
